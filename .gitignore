@@ -1,0 +1,49 @@
+# Ignorar arquivos de compilação e caches
+bin/
+obj/
+
+# Ignorar arquivos de dependências
+*.dll
+*.exe
+*.pdb
+
+# Ignorar arquivos de usuário e configuração
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar arquivos temporários
+[Tt]emp/
+[Oo]bj/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de compilação
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspx
+*.user
+*.userosscache
+*.suo
+*.cache
+*.xcuserdata
+*.xcworkspace
+*.xcuserdatad
