@@ -1,4 +1,7 @@
-Estes foram os pontos principais abordados nesta aula:
-Discutimos a importância de organizar nossas classes e tipos em pastas e namespaces para agrupá-las logicamente e aumentar a produtividade. Como prática, aplicamos o namespace ScreenSound.Modelos às classes Album, Banda e Musica, separando seus arquivos na pasta Modelos;
+> 1 Criar uma classe que representa um filme, com dados como seu titulo, duração e elenco. Após isso, colocá-la no namespace Alura.Filmes.
 
-Aplicamos as classes Banda e Album no arquivo Program.cs, deixando nossa aplicação mais orientada a objetos. Um ponto de destaque é o encapsulamento de notas como parte de uma banda, tornando o código mais limpo e fácil de manter no futuro.
+> 2  Criar um programa Program.cs, instanciar seus 5 filmes favoritos, guardá-los em uma lista e mostrar as suas informações no console.
+
+> 3 Criar uma classe Artista, que representa uma pessoa que atua em filmes, no namespace Alura.Filmes. A classe deve conter atributos como o nome, idade e uma lista de filmes onde o artista atuou.
+
+> 4 Modificar as classes Artista e Filme do namespace Alura.Filmes para que elas sejam consistentes uma com a outra, ou seja, sempre que for adicionado um artista a um filme, terá de ser adicionado também o filme à lista de filmes do artista.
