@@ -1,23 +1,4 @@
-﻿using System;
-
-#if CALCULADORA
+﻿using System.Runtime.InteropServices;
 using Calculando;
-#endif
 
-#if OFICINA
-using OficinaAutomobilistica;
-#endif
-
-class Program
-{
-    static void Main(string[] args)
-    {
-#if CALCULADORA
-        ProgramCalculadora.Main(args);
-#endif
-
-#if OFICINA
-        ProgramOficina.Main(args);
-#endif
-    }
-}
+Console.WriteLine(Calculadora.Calcular(8, 8, '*'));
