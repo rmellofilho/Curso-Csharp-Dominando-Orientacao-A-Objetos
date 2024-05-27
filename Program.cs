@@ -1,23 +1,8 @@
-﻿using System;
+﻿using Desafio.Primeiro.PetShop;
 
-#if CALCULADORA
-using Calculando;
-#endif
+Pet pet1 = new Pet("pet1", 10, "especie1");
+Dono dono1 = new Dono("Roberto", "00 90000-0000");
+Medico medico1 = new Medico("Doutor 1", "Especialidade 1");
 
-#if OFICINA
-using OficinaAutomobilistica;
-#endif
+Consulta consulta = new Consulta(pet1, dono1, medico1, "2024-05-27");
 
-class Program
-{
-    static void Main(string[] args)
-    {
-#if CALCULADORA
-        ProgramCalculadora.Main(args);
-#endif
-
-#if OFICINA
-        ProgramOficina.Main(args);
-#endif
-    }
-}
