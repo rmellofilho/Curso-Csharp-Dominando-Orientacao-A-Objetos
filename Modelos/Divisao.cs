@@ -13,6 +13,6 @@ public class Divisao
             Console.WriteLine("Erro: Divisão por zero.");
             return 0;
         }
-        
+
     }
 }
