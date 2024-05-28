@@ -1,4 +1,4 @@
-internal class Analista : Funcionario
+class Analista : Funcionario
 {
     public string AreaDeAtuacao { get; set; }
 }

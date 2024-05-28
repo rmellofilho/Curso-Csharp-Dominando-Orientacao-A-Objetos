@@ -1,4 +1,4 @@
-abstract class Gerente : Funcionario
+class Gerente : Funcionario
 {
     public string Setor { get; set; }
 }

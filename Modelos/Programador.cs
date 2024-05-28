@@ -1,4 +1,4 @@
-internal class Programador : Funcionario
+class Programador : Funcionario
 {
     public string LinguagemDeProgramacao { get; set; }
 }
