@@ -8,6 +8,11 @@ ira.AdicionarNota(new Avaliacao(6));
 
 Banda beatles = new("The Beatles");
 
+beatles.AdicionarAlbum(new Album("White Album"));
+beatles.AdicionarAlbum(new Album("Revolver"));
+beatles.AdicionarAlbum(new Album("Abbey Road"));
+
+
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(ira.Nome, ira);
 bandasRegistradas.Add(beatles.Nome, beatles);
